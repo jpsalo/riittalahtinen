@@ -1,367 +1,354 @@
 body {
-    font-family:arial,tahoma,sans-serif;
-    background:rgb(227,227,227);
+  font-family: arial, tahoma, sans-serif;
+  background: rgb(227,227,227);
 }
 
 #koko {
-    width: 758px;
-    color:rgb(102,102,102);
-    font-weight:bold;
-    margin:auto;
+  width: 758px;
+  color: rgb(102,102,102);
+  font-weight: bold;
+  margin: auto;
 }
 
 h1 {
-    font-family:verdana;
-    text-align:right;
-    font-size:240%;
-    letter-spacing:5px;
-    text-shadow: -2px 2px 4px rgb(102,102,102);
-    margin-top: 10px;
-    margin-right: 10px;
+  font-family: verdana;
+  text-align: right;
+  font-size: 240%;
+  letter-spacing: 5px;
+  text-shadow: -2px 2px 4px rgb(102,102,102);
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 h1 a {
-    text-decoration:none;
-    color:rgb(102,102,102);
+  text-decoration: none;
+  color: rgb(102,102,102);
 }
 
 h1 a:visited {
-    color:rgb(102,102,102);
+  color: rgb(102,102,102);
 }
 
 h1 a:hover {
-    color:rgb(255,255,240);
+  color: rgb(255,255,240);
 }
 
 li a {
-    color:rgb(102,102,102);
+  color: rgb(102,102,102);
 }
 
 li a:hover {
-    text-decoration:none;
+  text-decoration: none;
 }
 
 #sign {
-    font-family:verdana;
-    text-align:right;
-    font-size:100%;
-    margin:5px 10px 25px auto;
-    text-shadow:0 0 2px rgb(102,102,102);
+  font-family: verdana;
+  text-align: right;
+  font-size: 100%;
+  margin: 5px 10px 25px auto;
+  text-shadow: 0 0 2px rgb(102,102,102);
 }
 
 #blog {
-    float: left;
-    font-family:verdana;
-    text-align:left;
-    font-size:100%;
-    margin:5px auto 25px 10px;
-    text-shadow:0 0 2px rgb(102,102,102);
+  float: left;
+  font-family: verdana;
+  text-align: left;
+  font-size: 100%;
+  margin: 5px auto 25px 10px;
+  text-shadow: 0 0 2px rgb(102,102,102);
 }
-#sign a,
-#blog a {
-    text-decoration:none;
-    color:rgb(102,102,102);
-}
-
-#sign a:visited,
-#blog a:visited {
-    color:rgb(102,102,102);
+#sign a, #blog a {
+  text-decoration: none;
+  color: rgb(102,102,102);
 }
 
-#sign a:hover,
-#blog a:hover {
-    color:black;
+#sign a:visited, #blog a:visited {
+  color: rgb(102,102,102);
+}
+
+#sign a:hover, #blog a:hover {
+  color: black;
 }
 
 h4 {
-    margin-left:15px;
+  margin-left: 15px;
 }
 
 #otsikko {
-    width:100%;
-    height:75px;
-    float:left;
-    background-image:url(images/tausta1.jpg);
-    background-repeat:repeat-x;
+  width: 100%;
+  height: 75px;
+  float: left;
+  background-image: url(images/tausta1.jpg);
+  background-repeat: repeat-x;
 }
 
 #sisalto {
-    width: 100%;
-    min-height: 560px;
-    float:left;
-    background:rgb(255,255,240);
+  width: 100%;
+  min-height: 560px;
+  float: left;
+  background: rgb(255,255,240);
 }
 
 #sisalto a img {
-    border:none;
-    padding:5px;
+  border: none;
+  padding: 5px;
 }
 
-.teksti	 {
-    padding:0 0 0 15px;
+.teksti {
+  padding: 0 0 0 15px;
 }
 ul {
-    list-style: square;
+  list-style: square;
 }
 /*teksti ul {
-    list-style:none;
-}*/
+ list-style:none;
+ }*/
 /*.teksti ul li {
-    list-style: none;
-}*/
+ list-style: none;
+ }*/
 
 /*.teksti ul li ul {
-    list-style:none;
-    font-size:85%;
-}*/
+ list-style:none;
+ font-size:85%;
+ }*/
 
 .teksti p {
-    width:600px;
+  width: 600px;
 }
 
 .kuva {
-    margin:20px 50px 20px 50px;
-    font-size:80%;
+  margin: 20px 50px 20px 50px;
+  font-size: 80%;
 }
 
-#footer	{
-    width:100%;
-    height:50px;
-    float:left;
-    background-image:url(images/tausta2.jpg);
-    background-repeat:repeat-x;
-    border-style:solid none none none;
-    border-color:rgb(102,102,102);
-    border-width:1px;
+#footer {
+  width: 100%;
+  height: 50px;
+  float: left;
+  background-image: url(images/tausta2.jpg);
+  background-repeat: repeat-x;
+  border-style: solid none none none;
+  border-color: rgb(102,102,102);
+  border-width: 1px;
 }
 
 #valikko {
-    width:100%;
-    text-align:center;
+  width: 100%;
+  text-align: center;
 }
 
 #valikko ul {
-    list-style:none;
-    margin:0;
-    padding:0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 #valikko ul li {
-    position:relative;
-    float:left;
+  position: relative;
+  float: left;
 }
 
 #valikko ul li a:hover img {
-    color:rgb(102,102,102);
+  color: rgb(102,102,102);
 }
 
-#valikko ul li a:link,
-#valikko ul li a:visited {
-    height:30px;
-    padding:5px 10px 5px 10px;
-    display:block;
-    text-decoration:none;
-    font:bold 75% verdana;
-    letter-spacing:1px;
-    color:rgb(255,255,240);
-    background:rgb(102,102,102);
+#valikko ul li a:link, #valikko ul li a:visited {
+  height: 30px;
+  padding: 5px 10px 5px 10px;
+  display: block;
+  text-decoration: none;
+  font: bold 75% verdana;
+  letter-spacing: 1px;
+  color: rgb(255,255,240);
+  background: rgb(102,102,102);
 }
 
 #valikko ul li a:hover {
-    color:rgb(102,102,102);
-    background:rgb(227,227,227);
+  color: rgb(102,102,102);
+  background: rgb(227,227,227);
 }
 
 #valikko ul li ul {
-    display:none;
-    position:absolute;
-    top:40px;
-    right:0;
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 0;
 }
 
 #valikko ul li ul li {
-    clear:left;
+  clear: left;
 }
 
 #valikko ul li:hover ul {
-    display:block;
+  display: block;
 }
 
-#valikko ul li ul li a:link,
-#valikko ul li ul li a:visited {
-    color:rgb(255,255,240);
-    background:rgb(102,102,102);
-    font-weight:normal;
-    height:auto;
-    padding:5px 5px 5px 10px;
+#valikko ul li ul li a:link, #valikko ul li ul li a:visited {
+  color: rgb(255,255,240);
+  background: rgb(102,102,102);
+  font-weight: normal;
+  height: auto;
+  padding: 5px 5px 5px 10px;
 }
 
 #valikko ul li ul li a:hover {
-    color:rgb(102,102,102);
-    background:rgb(227,227,227);
+  color: rgb(102,102,102);
+  background: rgb(227,227,227);
 }
 
-body#etusivu a#e,
-body#home a#ho,
-body#huovutus a#hu,
-body#keramiikka a#k,
-body#maalaus a#m,
-body#nayttelyt a#n,
-body#maalauksia_matkoilta a#mm,
-body#esilla_myynnissa a#tem,
-body#tulevaa a#t {
-    color:rgb(102,102,102);
-    background:rgb(255,255,240);
-    cursor:default;
+body#etusivu a#e, body#home a#ho, body#huovutus a#hu, body#keramiikka a#k, body#maalaus a#m, body#nayttelyt a#n, body#maalauksia_matkoilta a#mm, body#esilla_myynnissa a#tem, body#tulevaa a#t {
+  color: rgb(102,102,102);
+  background: rgb(255,255,240);
+  cursor: default;
 }
 
 body#esilla_myynnissa #sisalto li {
-    padding:0 0 0 15px;
+  padding: 0 0 0 15px;
 }
 table.taulu {
-    padding-left: 2.5em;
+  padding-left: 2.5em;
 }
 .solu {
-    padding: 0 10px;
-    border: solid 0 rgb(102,102,102);
-    border-right-width:1px;
-    text-align: left;
+  padding: 0 10px;
+  border: solid 0 rgb(102,102,102);
+  border-right-width: 1px;
+  text-align: left;
 }
 .otsikkoSolu {
-    padding: 0 10px;
-    border: solid 0 rgb(102,102,102);
-    border-right-width: 1px;
-    border-bottom-width: 1px;
-    text-align: left;
+  padding: 0 10px;
+  border: solid 0 rgb(102,102,102);
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  text-align: left;
 }
 td {
-    font-size: small;
+  font-size: small;
 }
 #lightbox {
-    position:absolute;
-    left:0;
-    width:100%;
-    z-index:100;
-    text-align:center;
-    line-height:0;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  text-align: center;
+  line-height: 0;
 }
 
 #lightbox img {
-    width:auto;
-    height:auto;
+  width: auto;
+  height: auto;
 }
 
 #lightbox a img {
-    border:none;
+  border: none;
 }
 
 #outerImageContainer {
-    position:relative;
-    background-color:#fff;
-    width:250px;
-    height:250px;
-    margin:0 auto;
+  position: relative;
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
 }
 
 #imageContainer {
-    padding:10px;
+  padding: 10px;
 }
 
 #loading {
-    position:absolute;
-    top:40%;
-    left:0%;
-    height:25%;
-    width:100%;
-    text-align:center;
-    line-height:0;
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
 }
 
 #hoverNav {
-    position:absolute;
-    top:0;
-    left:0;
-    height:100%;
-    width:100%;
-    z-index:10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
 }
 
-#imageContainer>#hoverNav {
-    left:0;
+#imageContainer > #hoverNav {
+  left: 0;
 }
 
 #hoverNav a {
-    outline:none;
+  outline: none;
 }
 
 #prevLink, #nextLink {
-    width:49%;
-    height:100%;
-    background-image:url(data:image/gif;base64,AAAA);
-    display:block;
+  width: 49%;
+  height: 100%;
+  background-image: url(data:image/gif;base64,AAAA);
+  display: block;
 }
 
 #prevLink {
-    left:0;
-    float:left;
+  left: 0;
+  float: left;
 }
 
 #nextLink {
-    right:0;
-    float:right;
+  right: 0;
+  float: right;
 }
 
 #prevLink:hover, #prevLink:visited:hover {
-    background:url(images/prevlabel.gif) left 15% no-repeat;
+  background: url(images/prevlabel.gif) left 15% no-repeat;
 }
 
 #nextLink:hover, #nextLink:visited:hover {
-    background:url(images/nextlabel.gif) right 15% no-repeat;
+  background: url(images/nextlabel.gif) right 15% no-repeat;
 }
 
 #imageDataContainer {
-    font:10px Verdana, Helvetica, sans-serif;
-    background-color:#fff;
-    margin:0 auto;
-    line-height:1.4em;
-    overflow:auto;
-    width:100%;
+  font: 10px Verdana, Helvetica, sans-serif;
+  background-color: #fff;
+  margin: 0 auto;
+  line-height: 1.4em;
+  overflow: auto;
+  width: 100%;
 }
 
 #imageData {
-    padding:0 10px;
-    color:#666;
+  padding: 0 10px;
+  color: #666;
 }
 
 #imageData #imageDetails {
-    width:70%;
-    float:left;
-    text-align:left;
+  width: 70%;
+  float: left;
+  text-align: left;
 }
 
 #imageData #caption {
-    font-weight:bold;
+  font-weight: bold;
 }
 
 #imageData #numberDisplay {
-    display:block;
-    clear:left;
-    padding-bottom:1.0em;
+  display: block;
+  clear: left;
+  padding-bottom: 1.0em;
 }
 
 #imageData #bottomNavClose {
-    width:66px;
-    float:right;
-    padding-bottom:0.7em;
-    outline:none;
-}	 	
+  width: 66px;
+  float: right;
+  padding-bottom: 0.7em;
+  outline: none;
+}
 
 #overlay {
-    position:absolute;
-    top:0;
-    left:0;
-    z-index:90;
-    width:100%;
-    height:500px;
-    background-color:#000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  width: 100%;
+  height: 500px;
+  background-color: #000;
 }
