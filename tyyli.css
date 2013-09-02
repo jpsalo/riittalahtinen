@@ -41,6 +41,10 @@ li a:hover {
   text-decoration: none;
 }
 
+.smalltext {
+  font-size: 90%;
+}
+
 #sign {
   font-family: verdana;
   text-align: right;
