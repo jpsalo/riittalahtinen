@@ -1,3 +1,8 @@
+html,
+body {
+  height: 100%;
+}
+
 body {
   font-family: arial, tahoma, sans-serif;
   background: rgb(227,227,227);
@@ -116,7 +121,7 @@ ul {
  font-size:85%;
  }*/
 
-.teksti p {
+ .teksti p {
   width: 600px;
 }
 
@@ -137,6 +142,7 @@ ul {
 }
 
 #valikko {
+  float: left;
   width: 100%;
   text-align: center;
 }
@@ -152,11 +158,21 @@ ul {
   float: left;
 }
 
+#valikko ul li:last-child {
+  float: right;
+}
+
+#valikko ul li:last-child a:link,
+#valikko ul li:last-child a:visited {
+  padding: 5px 10px 5px 9px;
+}
+
 #valikko ul li a:hover img {
   color: rgb(102,102,102);
 }
 
-#valikko ul li a:link, #valikko ul li a:visited {
+#valikko ul li a:link,
+#valikko ul li a:visited {
   height: 30px;
   padding: 5px 10px 5px 10px;
   display: block;
